@@ -1,0 +1,340 @@
+html, body
+{
+    height: 100%;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #282828 url(../img/l.jpg)repeat ;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+    color: #fff;
+}
+h1, h2, h3
+{
+    margin: 0;
+    padding: 0;
+}
+p, ul
+{
+    margin-top: 0;
+}
+ ul
+{
+    padding: 0 ;
+    list-style: none;
+}
+ ul , li{
+     margin-top: 10px;
+ }
+p
+{
+    line-height: 180%;
+}
+a
+{
+    color: #747474;
+}
+a:hover
+{
+    text-decoration: none;
+    color: #282828;
+
+}
+.container
+{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+.button
+{
+    display: inline-block;
+    margin-top: 2em;
+    background: #BC1414;
+    border-radius: 5px;
+    line-height: 4em;
+    padding: 0 3em;
+    letter-spacing: 0.25em;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: 0;
+    white-space: nowrap;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 0.80em !important;
+    color: #fff !important;
+}
+
+.button:hover
+{
+    background: #BB1717;
+
+}
+
+.button:active
+{
+    background: #1B1B1B;
+    ;
+}
+/*********************************************************************************/
+/* header                                                                        */
+/*********************************************************************************/
+#header
+{
+    padding: 3em 0;
+    text-transform: uppercase;
+}
+
+#header h1 a
+{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+#header span
+{
+    color: #BC1414;
+}
+
+#header p
+{
+    margin: 0;
+    padding-left: 80px ;
+    letter-spacing: 0.10em;
+    font-size: 24px;
+}
+
+#header p a
+{
+    text-decoration: none;
+}
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+#menu
+{
+    background: #1B1B1B url(../img/l.jpg) repeat;
+    border-bottom: 4px solid #BC1414;
+}
+
+#menu ul
+{
+    margin: 0;
+    padding: 0 0 0 0;
+    list-style: none;
+    line-height: normal;
+    text-align: center;
+}
+
+#menu li
+{
+    display: inline-block;
+}
+
+#menu a
+{
+    display: block;
+    padding: 0 2em;
+    line-height: 80px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    color: gray;
+}
+
+
+#menu a:hover
+{
+    text-decoration: none;
+    color: #FFF;
+}
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+#banner
+{
+    height: 510px;
+    margin: 2em auto;
+    padding-left: 80px;
+}
+/*********************************************************************************/
+/* Three Columns                                                                 */
+/*********************************************************************************/
+#row
+{
+    overflow: hidden;
+    margin-bottom: 2em;
+    background: #fff;
+    border-bottom: 4px solid #BC1414;
+    color: #525252;
+    text-align: center;
+}
+
+#row h2
+{
+    margin: 1em 0;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #454445;
+}
+
+#tbox1
+{
+    float: left;
+    width: 385px;
+    padding: 50px 50px 80px 50px;
+}
+#tbox2
+{
+    float: left;
+    width: 385px;
+    padding: 50px 50px 80px 50px;
+}
+#tbox3
+{
+    float: left;
+    width: 385px;
+    padding: 50px 50px 80px 50px;
+}
+img{
+    margin-left: 380px;
+}
+#footer-menu  li {
+    display: inline-block;
+    margin-right: 40px;
+}
+#footer-menu
+{
+    float: left;
+    width: 700px;
+    margin-top: 40px;
+    padding: 50px 50px 80px 50px;
+}
+#footer-ad
+{
+    float: left;
+    width: 450px;
+    padding: 50px 50px 50px 100px;
+
+}
+
+#footer {
+    color: #919191;
+    background: #282828 url(../img/l.jpg)repeat ;
+    height: 270px;
+
+    border-bottom: 4px solid #B41313;
+}
+.thumbnail img {
+    border-bottom: 4px solid #B41313; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background-color: #ffffff; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+h3{
+    color: #B41313;
+    text-align: center;
+    font-size: 34px;
+    margin: 40px;
+}
+/*********************************************************************************/
+/* Slaider                                                                        */
+/*********************************************************************************/
+.slides{
+    position:relative;
+    height:400px;
+    width:600px;
+
+}
+.slides  img{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-2;
+    background: #1B1B1B url(../img/l.jpg) repeat;
+    border-bottom: 4px solid #BC1414;
+    margin-bottom: 2em;
+    margin-left: 45%;
+}
+
+.slides  img.top{
+    z-index:-1;
+}
+/*********************************************************************************/
+/* contact                                                                      */
+/*********************************************************************************/
+#contact{
+    margin: 100px;
+}
+#cont{
+    padding-left: 200px;
+}
+/*********************************************************************************/
+/* about me                                                                    */
+/*********************************************************************************/
+#row5
+{
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: 4px solid #BC1414;
+    color: #525252;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#row5 h2 {
+    margin: 20px;
+}
+
+/*********************************************************************************/
+/* post                                                                   */
+/*********************************************************************************/
+
+
+.contain {
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+}
+
+.button-group {
+    margin-bottom: 20px;
+}
+
+.counter {
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.posts {
+    clear: both;
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+}
+
+.posts li {
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    min-height: 42px;
+}
